@@ -468,7 +468,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startButton: {fileID: 1924281633}
   target: {fileID: 175505859}
-  idleSprites: []
 --- !u!4 &1357848990
 Transform:
   m_ObjectHideFlags: 0

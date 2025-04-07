@@ -13,12 +13,12 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        DontDestroyOnLoad(gameObject);
         startButton.onClick.AddListener(onClickStartButton);
     }
 
     private void onClickStartButton()
     {
-        Debug.Log("start button");
         startButton.gameObject.SetActive(false);
 
         GameObject loadedModeUI = Resources.Load<GameObject>("Prefabs/ModeUI");
@@ -31,27 +31,19 @@ public class GameManager : MonoBehaviour
 
     private void TimeAttackMode()
     {
-        Debug.Log("Time Attack Mode");
         StartCoroutine(LoadSceneAsync("GameScene"));
-
-        GameObject character = Resources.Load<GameObject>("Prefabs/Character");
-        Instantiate(character);
     }
 
     private void StageMode()
     {
-        Debug.Log("Stage Mode");
         StartCoroutine(LoadSceneAsync("GameScene"));
     }
 
     private IEnumerator LoadSceneAsync(string sceneName)
     {
-        Debug.Log("Game Scene Load");
         yield return SceneManager.LoadSceneAsync(sceneName);
-    }
 
-    void Update()
-    {
-
+        GameObject resCharacter = Resources.Load<GameObject>("Prefabs/Character");
+        GameObject sceneCharacter = Instantiate(resCharacter);
     }
 }

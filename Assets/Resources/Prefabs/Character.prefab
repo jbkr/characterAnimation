@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 1929015954739658563}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -2.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -101,13 +101,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idleSprites:
-  - {fileID: 21300000, guid: 78cb51b531ddb89419c7fa611c7098dc, type: 3}
-  - {fileID: 21300000, guid: c96b02b971b0a4243881a4f47f4d3179, type: 3}
-  - {fileID: 21300000, guid: 2d0a58967735e414e8ccd71cf74ba3f5, type: 3}
-  - {fileID: 21300000, guid: 0d77f73d4d99df547aa70ffcb58767a5, type: 3}
-  - {fileID: 21300000, guid: 57a5401a8028e9847bdaf9dca66842ae, type: 3}
-  - {fileID: 21300000, guid: 9e8f0ef582be53e4b97859d154d91af7, type: 3}
-  - {fileID: 21300000, guid: ab0b98e236d3caa4fa823f29bd31e1c7, type: 3}
-  - {fileID: 21300000, guid: e5e0c75a3ed008442be94f5946f15929, type: 3}
-  - {fileID: 21300000, guid: e5258472650049045bbf40c848a088b1, type: 3}
-  - {fileID: 21300000, guid: ee54785c109c1014c87115db62440046, type: 3}
+  - {fileID: 21300000, guid: 20daa800a641d9e4cae18a06630db1ef, type: 3}
+  - {fileID: 21300000, guid: 50a4a2787b97b4d4080a545cb036d0fb, type: 3}
+  - {fileID: 21300000, guid: 761e277bc5c84c3419e2a42c396dde31, type: 3}
+  - {fileID: 21300000, guid: f53e5e300297519409f636d0b0aef3fa, type: 3}
+  - {fileID: 21300000, guid: d6f80947af627e947b45cfa7a5ccc2c9, type: 3}
+  - {fileID: 21300000, guid: 4f4ced12cb9b05c488e369f8bae6ab32, type: 3}
+  walkSprites:
+  - {fileID: 21300000, guid: ec6024434cc0c7f4eb61be20590aef7f, type: 3}
+  - {fileID: 21300000, guid: 23bc0af480a292c4a92209d33c2e7c0d, type: 3}
+  - {fileID: 21300000, guid: 98c5ac8072bb34448b13482b69c7a0b3, type: 3}
+  - {fileID: 21300000, guid: 5480b347e27b5074da20bc4efbd8d6d6, type: 3}
+  - {fileID: 21300000, guid: 9306e39f0f362e24888908e2bc7ab52a, type: 3}
+  - {fileID: 21300000, guid: f20355d64c1efe249bc0de4d35a8cf0f, type: 3}
+  runSpeed: 3

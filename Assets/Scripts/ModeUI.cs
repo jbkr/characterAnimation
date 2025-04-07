@@ -10,11 +10,6 @@ public class ModeUI : MonoBehaviour
     [SerializeField]
     private Button stageModeButton;
 
-    void Start()
-    {
-
-    }
-
     public void onClickTimeAttack(UnityAction callBackAction)
     {
         timeAttackButton.onClick.AddListener(callBackAction);
@@ -23,10 +18,5 @@ public class ModeUI : MonoBehaviour
     public void onClickStage(UnityAction callBackAction)
     {
         stageModeButton.onClick.AddListener(callBackAction);
-    }
-
-    void Update()
-    {
-
     }
 }
